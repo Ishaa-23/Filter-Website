@@ -1,0 +1,38 @@
+canvas
+{
+  text-align: center;
+  border:1px solid black;
+}
+body
+{
+  background-image:radial-gradient(#ddede1,#c9f2d4);
+  
+ 
+}
+h1
+{
+  text-align: center;
+
+}
+.anim
+{
+  animation-name: colors;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes colors 
+{
+  from {background-color:#12e9f8;}
+  to {background-color:#f772c9;}
+  to {background-color:#f2bfe0;}
+
+}
+h2
+{
+  text-align: center;
+}
+p
+{
+  text-align: center;
+}
